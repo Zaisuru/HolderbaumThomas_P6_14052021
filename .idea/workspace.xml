@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a9d176-71ea-4d02-b590-c6cf8dd80fe7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
   </component>
   <component name="ProjectId" id="1rQlFBxZ7KRxUSzAzAs1EVpbjKf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +60,7 @@
       <workItem from="1619811479217" duration="998000" />
       <workItem from="1619986020825" duration="1491000" />
       <workItem from="1619988602540" duration="959000" />
-      <workItem from="1619990249293" duration="307000" />
+      <workItem from="1619990249293" duration="567000" />
     </task>
     <servers />
   </component>
