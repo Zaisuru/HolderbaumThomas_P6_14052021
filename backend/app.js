@@ -2,6 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const path = require('path');
 const sauceRoute = require('./routes/sauces');
 const usersRoute = require('./routes/user');
 const app = express();
@@ -29,9 +30,11 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 
+//Declaration middleware
+app.use('/images', express.static(path.join(__dirname, 'images')));
+
 //Declaration des routes
 app.use('/api/sauces', sauceRoute);
-
 app.use('/api/auth', usersRoute);
 
 //Exports
