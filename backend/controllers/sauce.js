@@ -23,7 +23,11 @@ exports.getAllSauce = (req,res,next) => {
 };
 
 // Renvoi la sauce avec l'id
-exports.uniqueSauce = (req,res, next) => {};
+exports.uniqueSauce = (req,res, next) => {
+    Sauce.findOne({_id: req.params.id})
+        .then(sauce => res.status(200).json(sauce))
+        .catch(error => res.status(400).json({error}));
+};
 
 //Met à jour la sauce avec l'id
 exports.modifySauce = (req,res,next) => {};

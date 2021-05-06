@@ -14,7 +14,7 @@ router.post('/', auth, multer, sauceCtrl.createSauce);
 router.get('/',  sauceCtrl.getAllSauce);
 
 // Renvoi la sauce avec l'id
-//router.get('/:id', auth,  sauceCtrl.uniqueSauce);
+router.get('/:id',  sauceCtrl.uniqueSauce);
 
 //Met à jour la sauce avec l'id
 //router.put('/:id', auth,  sauceCtrl.modifySauce);

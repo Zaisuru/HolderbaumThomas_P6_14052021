@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a9d176-71ea-4d02-b590-c6cf8dd80fe7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/sauce.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/sauce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/sauces.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/sauces.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +69,9 @@
       <workItem from="1619986020825" duration="1491000" />
       <workItem from="1619988602540" duration="959000" />
       <workItem from="1619990249293" duration="1773000" />
-      <workItem from="1620026798299" duration="1251000" />
+      <workItem from="1620026798299" duration="5131000" />
+      <workItem from="1620118240221" duration="4419000" />
+      <workItem from="1620289736836" duration="5028000" />
     </task>
     <servers />
   </component>

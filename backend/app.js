@@ -6,9 +6,10 @@ const path = require('path');
 const sauceRoute = require('./routes/sauces');
 const usersRoute = require('./routes/user');
 const app = express();
+require('dotenv').config();
 
 
-mongoose.connect('mongodb+srv://admin:A88fd91cd62@cluster0.qtepw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect(process.env.mongodb,
     {
         useNewUrlParser: true,
         useUnifiedTopology : true
@@ -34,8 +35,8 @@ app.use(bodyParser.json());
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
 //Declaration des routes
-app.use('/api/sauces', sauceRoute);
 app.use('/api/auth', usersRoute);
+app.use('/api/sauces', sauceRoute);
 
 //Exports
 module.exports = app;
