@@ -17,10 +17,10 @@ router.get('/',  sauceCtrl.getAllSauce);
 router.get('/:id',  sauceCtrl.uniqueSauce);
 
 //Met à jour la sauce avec l'id
-//router.put('/:id', auth,  sauceCtrl.modifySauce);
+router.put('/:id', auth, multer,  sauceCtrl.modifySauce);
 
 //Supprime la sauce avec l'ID
-//router.delete('/:id', auth,  sauceCtrl.deleteSauce);
+router.delete('/:id', auth,  sauceCtrl.deleteSauce);
 
 //Exports module
 module.exports = router;

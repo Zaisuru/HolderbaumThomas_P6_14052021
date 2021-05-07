@@ -1,4 +1,5 @@
-const Sauce = require('../models/Sauce');
+const Sauce = require('../models/Sauce.js');
+const fs = require('fs');
 
 // configuration route
 
@@ -30,7 +31,27 @@ exports.uniqueSauce = (req,res, next) => {
 };
 
 //Met à jour la sauce avec l'id
-exports.modifySauce = (req,res,next) => {};
+exports.modifySauce = (req,res,next) => {
+    const sauceObject = req.file? // si existe
+        {
+            ...JSON.parse(req.body.sauce),
+            imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+        } : { ...req.body};
+    Sauce.updateOne({_id: req.params.id}, {...sauceObject, id: req.params.id})
+        .then(() => res.status(200).json({message:'Objet modifé !'}))
+        .catch(error => res.status(400).json({error}));
+};
 
 //Supprime la sauce avec l'ID
-exports.deleteSauce = (req, res, next) => {};
+exports.deleteSauce = (req, res, next) => {
+    Sauce.findOne({_id: req.params.id})
+        .then(sauce => {
+            const filename = sauce.imageUrl.split('/images/')[1];
+            fs.unlink(`images/${filename}`, () => {
+                Sauce.deleteOne({_id : req.params.id})
+                    .then(() => res.status(200).json({message:'Objet Supprimé'}))
+                    .catch(error => res.status(400).json({error}));
+            })
+        })
+        .catch(error => res.status(500).json({error}))
+};
