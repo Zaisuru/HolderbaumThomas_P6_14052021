@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a9d176-71ea-4d02-b590-c6cf8dd80fe7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/sauce.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/sauce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middleware/multer-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/multer-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Sauce.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Sauce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/sauces.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/sauces.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,8 @@
       <workItem from="1620026798299" duration="5131000" />
       <workItem from="1620118240221" duration="4419000" />
       <workItem from="1620289736836" duration="14199000" />
-      <workItem from="1620375012058" duration="2620000" />
+      <workItem from="1620375012058" duration="3477000" />
+      <workItem from="1620743876866" duration="6245000" />
     </task>
     <servers />
   </component>
