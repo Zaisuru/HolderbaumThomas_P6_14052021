@@ -3,13 +3,15 @@ const mongoose = require('mongoose');
 const User = require ('../models/user');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const obfuscatorEmail = require('obfuscator-email');
 
 //Creation d'un compte
 exports.signup = (req, res, next) => {
+    const obfuscatorEmail = obfuscatorEmail(req.body.email);
     bcrypt.hash(req.body.password, 10)
         .then(hash => {
             const user = new User ({
-                email:req.body.email,
+                email:obfuscatorEmail,
                 password:hash
             })
             user.save()
