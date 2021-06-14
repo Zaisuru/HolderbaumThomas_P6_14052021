@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a9d176-71ea-4d02-b590-c6cf8dd80fe7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/sauce.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/sauce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,7 +69,11 @@
       <workItem from="1620118240221" duration="4419000" />
       <workItem from="1620289736836" duration="14199000" />
       <workItem from="1620375012058" duration="3477000" />
-      <workItem from="1620743876866" duration="7390000" />
+      <workItem from="1620743876866" duration="8136000" />
+      <workItem from="1621240068262" duration="12000" />
+      <workItem from="1621240456467" duration="23000" />
+      <workItem from="1623424593214" duration="1479000" />
+      <workItem from="1623655792902" duration="708000" />
     </task>
     <servers />
   </component>

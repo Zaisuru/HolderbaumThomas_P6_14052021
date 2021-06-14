@@ -6,6 +6,7 @@ const path = require('path');
 const sauceRoute = require('./routes/sauces');
 const usersRoute = require('./routes/user');
 const app = express();
+const helmet = require('helmet');
 require('dotenv').config();
 
 
@@ -27,8 +28,7 @@ app.use((req, res, next) => {
     next();
 });
 
-//Connexion mongoDB
-
+app.use(helmet);
 app.use(bodyParser.json());
 
 //Declaration middleware
